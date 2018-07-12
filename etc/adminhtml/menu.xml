@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2017 myCenter. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Gladd_Base::gladd" title="Gladd" translate="title" module="Gladd_Base" parent="Magento_Backend::system" sortOrder="100" dependsOnModule="Gladd_Base" resource="Gladd_Base::gladd"/>
+        <add id="Gladd_Base::gladd_about" title="About" translate="title" module="Gladd_Base" parent="Gladd_Base::gladd" sortOrder="10" dependsOnModule="Gladd_Base" action="gladd/about" resource="Gladd_Base::gladd"/>
+    </menu>
+</config>
