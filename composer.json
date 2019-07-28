@@ -2,10 +2,11 @@
   "name": "gladd/module-base",
   "description": "Base module for gladd company presentation",
   "require": {
-    "magento/module-backend": "100.1.*"
+    "php": "~7.1.3||~7.2.0",
+    "magento/framework": "102.0.*"
   },
   "type": "magento2-module",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
