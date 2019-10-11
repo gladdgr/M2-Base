@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright © 2017 myCenter. All rights reserved.
+ * Copyright © 2019 gladd. All rights reserved.
  */
 
 \Magento\Framework\Component\ComponentRegistrar::register(
